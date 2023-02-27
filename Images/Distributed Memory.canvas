@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"903c3460e58b54b4","x":-179,"y":-277,"width":118,"height":111,"type":"text","text":"CPU"},
+		{"id":"0f9daa23215278ba","x":-322,"y":-277,"width":118,"height":111,"type":"text","text":"CPU"},
+		{"id":"199e8dcb7983572e","x":-14,"y":-277,"width":118,"height":111,"type":"text","text":"CPU"},
+		{"id":"c753c4c39ddf9cf0","x":129,"y":-277,"width":118,"height":111,"type":"text","text":"CPU"},
+		{"id":"977ad8d38ff4c6b5","x":-14,"y":-411,"width":261,"height":56,"type":"text","text":"Memory"},
+		{"id":"08eb647bc338895e","x":-322,"y":-411,"width":118,"height":56,"type":"text","text":"Memory"},
+		{"id":"38a22e693cfb6c5c","x":-179,"y":-411,"width":118,"height":56,"type":"text","text":"Memory"}
+	],
+	"edges":[
+		{"id":"4a5dd37a023c62d4","fromNode":"38a22e693cfb6c5c","fromSide":"bottom","toNode":"903c3460e58b54b4","toSide":"top"},
+		{"id":"bcb99c41869351d8","fromNode":"08eb647bc338895e","fromSide":"bottom","toNode":"0f9daa23215278ba","toSide":"top"},
+		{"id":"cc408308eabe9cfc","fromNode":"0f9daa23215278ba","fromSide":"bottom","toNode":"903c3460e58b54b4","toSide":"bottom"},
+		{"id":"cb03ff781fe2e127","fromNode":"903c3460e58b54b4","fromSide":"bottom","toNode":"0f9daa23215278ba","toSide":"bottom"},
+		{"id":"bc52ebbb74c13c1f","fromNode":"c753c4c39ddf9cf0","fromSide":"bottom","toNode":"199e8dcb7983572e","toSide":"bottom"},
+		{"id":"91085660e252768f","fromNode":"199e8dcb7983572e","fromSide":"bottom","toNode":"c753c4c39ddf9cf0","toSide":"bottom"},
+		{"id":"17884136429b604c","fromNode":"977ad8d38ff4c6b5","fromSide":"bottom","toNode":"199e8dcb7983572e","toSide":"top"},
+		{"id":"c30249e1d8d8f991","fromNode":"977ad8d38ff4c6b5","fromSide":"bottom","toNode":"c753c4c39ddf9cf0","toSide":"top"}
+	]
+}

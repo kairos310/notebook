@@ -1,0 +1,1 @@
+parts of program where accesses to shared variables by multiple threads may occur, danger of inconsistent values. Only one thread can access at a time
