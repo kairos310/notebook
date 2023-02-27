@@ -29,5 +29,4 @@ handles communitation with other devices with different buses.
 - memory is not uniform
 - [[Distributed Memory Architecture]]
 - **NUMA** (Non Uniform Memory Architecture)
-	- memory attached to a different processor, memory retrieval is slowed depending on how many levels of interconnects away it is
-
+	- memory attached to a different processor, memory retrieval is slowed depending on how many levels of interconnects away it is #rem

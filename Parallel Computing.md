@@ -180,13 +180,7 @@ bloc cyclic
 
 
 
-# Dependencies
-
----
-![[Dependencies]] 
-
----
-
+# [[Dependencies]]
 ### Cost
 $$Cost(n)= C_{p}(n) = processor\ count \times parallel\ execution\ time = p \cdot T_{p}(n)$$
 
@@ -198,10 +192,8 @@ $$E_p(n)=\frac{T^*(n)}{C_{p}(n)}=\frac{time\ sequential}{parallel\ execution\ ti
 ---
 # [[Memory Layout]]
 
----
 # [[RAM]] Types
 Static vs Dynamic 
-
 # [[Cache]]
 - SRAM
 - levels
@@ -235,5 +227,9 @@ x86 -
 ![[Code formatting]]
 
 
+# [[Virtual Address]]
+- mapping to pages in physical memory
+- index the page table
+- cached to TLB
 # Test
 ![[Review]]

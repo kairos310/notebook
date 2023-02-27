@@ -17,12 +17,12 @@
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "git@github.com:kairos310/notebook.git",
+  "basePath": "C:\\Users\\kairo\\OneDrive\\Documents\\Obsidian Notes\\.git",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false,
-  "gitDir": ""
+  "gitDir": "C:\\Users\\kairo\\OneDrive\\Documents\\Obsidian Notes\\.git"
 }

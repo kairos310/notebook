@@ -1,23 +1,19 @@
-
-#### Flow dependency
+#### Flow dependency (RAW)
 R1 <- R2 + R3
 R5 <- R1 + R4
 R5 needs to wait for R1, 
-also true dependency
-read after write RAW
+also *true* dependency
 
-#### Anti dependency
+#### Anti dependency (WAR)
 R1 <- R2 + R3
 R2 <- R4 + R5
 R2 needs to be saved before its modified
-write after read WAR
 
-#### Output dependency
+#### Output dependency (WAW)
 R1 <- R2 + R3
 R1 <- R4 + R5
 with sequential execution, make sure last write is the one that persists
 
-write after write WAW
 
 ![[Drawing 2023-02-17 11.11.11.excalidraw]]
 

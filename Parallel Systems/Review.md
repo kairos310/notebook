@@ -37,5 +37,5 @@ site of the memory reload for a program, the page
 
 ##### Exclusive cache
 only one cache gets the data, when not used, data is evicted up the hierarchy 
-[[cache]]
+[[Cache]]
 ##### Inclusive Cache
