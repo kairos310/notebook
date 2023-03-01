@@ -66,11 +66,11 @@ Symmetric multi processor systems
 	all processors see the same memory content at all times. 
 	**cache concurrency** 
 	![[Drawing 2023-02-08 11.42.43.excalidraw]]must be protected  
-	when a **write access** is detected, the cache line is marked **invalid**, access in the future will need to reload it
-	read is fine
-	dirty cache is validated by the **snoopy bus**, forcing a reload```
-	• A dirty cache line is not present in any other processor’s cache. 
-	• Clean copies of the same cache line can reside in arbitrarily many caches```
+- when a **write access** is detected, the cache line is marked **invalid**, access in the future will need to reload it
+- read is fine
+- dirty cache is validated by the **snoopy bus**, forcing a reload
+- A dirty cache line is not present in any other processor’s cache. 
+- Clean copies of the same cache line can reside in arbitrarily many caches
 
 
 
@@ -95,12 +95,13 @@ Bus read Exclusive:
 	bus read or not in M state, requests copy that it intends to modify, gets the most recent value, everything else marked invalid
 Write Block:
 	cache controller write cache block thats modified to main memory, main memory will be updated 
+![[Pasted image 20230227113129.png]]
 
 
 
 
-
-# ![[Write Behaviour]]
+# Write Behaviour
+![[Write Behaviour]]
 ## MESI
 ##### Modified - Exclusive - Shared - Invalid
 MESI saves two bus transactions, when trying to read I state, MSI performs a read and a bus write to get to a shared state, then performs a BusRdEx attempting to invalidate all other caches, however, there are no other caches with that data in it. 
@@ -139,6 +140,12 @@ memory is transferred from the main memory in blocks that are generally smaller 
 
 
 # Prefecting
+
+#### Cache Block 
+###### smaller
+Using larger blocks reduces the number of blocks that fit in the cache when using the same cache size. Therefore, cache blocks tend to be replaced earlier when using larger blocks compared to smaller blocks. This suggests to set the cache block size as small as possible. 
+###### larger
+On the other hand, it is useful to use blocks with more than one memory word, since the transfer of a block with x memory words from main memory into the cache takes less time than x transfers of a single memory word. This suggests to use larger cache blocks
 
 #### Misses
 cold start misses - when first start up, nothing in the cache is usable

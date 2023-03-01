@@ -7,7 +7,7 @@
 [[Flynn's taxonomy]]
 
 ### Memory Distribution
-[[Distributed Memory Architecture]]
+[[Memory Architecture]]
 
 cache,  dependencies , network, coherency , consistency , 
 

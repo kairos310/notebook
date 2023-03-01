@@ -4,6 +4,8 @@ R5 <- R1 + R4
 R5 needs to wait for R1, 
 also *true* dependency
 
+
+
 #### Anti dependency (WAR)
 R1 <- R2 + R3
 R2 <- R4 + R5
@@ -38,3 +40,11 @@ for(i = 1; i < N; i++){
 
 ```
 ![[Drawing 2023-02-17 11.35.17.excalidraw]]
+
+
+
+### Processor consistency models / Total store ordering(PC, TSO)
+relax $W\rightarrow R$  orderings to hide latency
+### Partial Store Ordering 
+relax $W \rightarrow W$ and  $W\rightarrow R$  
+write operations can be complete if there's no output dependency 

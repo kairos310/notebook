@@ -32,33 +32,20 @@ Types of ML systems:
 - clusters and finds label of the cluster
 ### Reinforcement learning
 -   observe
-    
 -   select action using policy, usually guesses at the beginning stages
-    
 -   action
-    
 -   get reward or penalty
-    
 -   update policy
-    
 -   iterate until an optimal policy is found
-    
 
 Batch vs Online
-
 -   Batch: trained all at once, if new data available, have to start from scratch
-    
 -   Online: trained incrementally, new data is incorporated
-    
+
 
 Instance vs Model based
-
 -   Instance: analyzing training data, kept in memory to make the predictions
-    
-
 -   k nearest neighbors, new instance is added, it measures nearest neighbor to other training data
-    
-
 -   Model: uses the model to make predictions, training data can be discarded
     
 
@@ -78,5 +65,7 @@ Challenge: 
     
 
 Use the np functions instead of the math ones
+
+# Neural Networks
 
 ![[Drawing 2023-02-23 09.41.05.excalidraw]]

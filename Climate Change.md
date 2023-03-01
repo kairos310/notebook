@@ -87,8 +87,15 @@ Flux
 | glass      |          |        |         |
 | clouds     |          |        |         |
 | atmosphere |          |        |         |
+
+# Planetary Balance
+### Energy In == Energy Out
+
 $\sigma$ = Stefan - Boltzmann constant = $5.67 \times 10^{-18}W/m^2/K^4$
 $T_e$=Earth's effective temperature
-S = Solar insolation
+S = Solar insolation = $S\pi R^2$
 A =Earth's albedo ~ 0.3
+$$energy\ in = energy\ out$$
+$$S\piR^2-SA\piR^2=\sigmaT^{4}_{e}$$
 $$\sigma T^4_e=\frac{S}{4}(1-A)$$
+![[Drawing 2023-02-27 10.18.56.excalidraw]]

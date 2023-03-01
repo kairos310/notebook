@@ -137,8 +137,8 @@ body
     --text-faint:                    var(--light1);
     --text-muted:                    var(--light2);
 
-    --h1-color:                      var(--neutral-red);
-    --h2-color:                      var(--neutral-yellow);
+    --h1-color:                      var(--bright-orange);
+    --h2-color:                      var(--bright-yellow);
     --h3-color:                      var(--neutral-green);
     --h4-color:                      var(--neutral-aqua);
     --h5-color:                      var(--neutral-blue);
@@ -147,10 +147,10 @@ body
     --text-highlight-bg:             var(--neutral-yellow);
     --text-highlight-fg:             var(--dark0-hard);
 
-    --text-accent:                   var(--neutral-orange);
+    --text-accent:                   var(--bright-yellow);
     --text-accent-hover:             var(--bright-aqua);
 
-    --tag-color:                     var(--bright-aqua);
+    --tag-color:                     var(--color-pink);
     --tag-background:                var(--dark2);
     --tag-background-hover:          var(--dark1);
 
@@ -158,8 +158,8 @@ body
 
     --inline-title-color:            var(--bright-yellow);
 
-    --bold-color:                    var(--neutral-yellow);
-    --italic-color:                  var(--neutral-yellow);
+    --bold-color:                    var(--bright-blue);
+    --italic-color:                  var(--bright-aqua);
 
     --checkbox-color:                var(--light4);
     --checkbox-color-hover:          var(--light4);

@@ -39,3 +39,47 @@ site of the memory reload for a program, the page
 only one cache gets the data, when not used, data is evicted up the hierarchy 
 [[Cache]]
 ##### Inclusive Cache
+
+# Test Study guide
+
+Ch 1 - skim  
+Ch 2:  
+- [ ]  2.1 - skim
+- [ ] 2.2 - [[Flynn's taxonomy]] 
+- [ ]   2.3 -  Memory Organization of Parallel Computers
+	- [x] [[Memory Architecture]]
+- [ ]  2.4 - 2.4.2 read, otherwise skim
+	- [x] [[Threads]] 
+		- [x] coarse
+		- [x] fine
+- [ ]  2.5-2.5.2 master
+	- [ ] [[Interconnects]] 
+	- [x] [[Network Topology]] 
+- [ ]  2.7 — yass queen
+	- [ ] [[Cache]] 
+	- [ ] [[Cache Associativity]] 
+	- [ ] [[Write Behaviour]] 
+	- [x] [[Cache Consistency]] 
+Ch 3:  
+
+- [ ]   3.0-3.1 - skim
+	- [ ] [[Parallel Computing]]
+	- [ ] [[SMPD]]
+	- [ ] Models
+		- Machine
+			- lowest level of abstraction, registers and input output buffers 
+		- Architectural
+			- network of parallel platforms, memory platforms, sync async processing, execution mode *SIMD* *MIMD*
+		- Programming
+			- 
+		- Computational 
+			- cost functions, 
+- [ ]   3.2-3.3.2 - mastery
+- [ ]   3.3.3 - skim
+- [ ]   3.3.4-3.3.5 are my jam, but you don’t need to know them (skim)
+- [ ]   3.3.6.x - skip master/worker otherwise read
+- [ ]   3.4.x - master (3.4.3 is advanced, but may help if you like math)
+- [ ]   3.5 - master
+- [ ]   3.6 - master
+- [ ]   3.7 - skim (really good stuff in here, mostly not on test)
+- [ ]   3.8 - skim (really good stuff in here, mostly not on test)
