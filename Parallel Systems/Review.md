@@ -64,7 +64,7 @@ Ch 3:
 
 - [ ]   3.0-3.1 - skim
 	- [ ] [[Parallel Computing]]
-	- [ ] [[SMPD]]
+	- [ ] [[SPMD]]
 	- [ ] Models
 		- Machine
 			- lowest level of abstraction, registers and input output buffers 
@@ -92,12 +92,26 @@ Ch 3:
 			- to physical cores
 			- If less cores than threads are available, multiple threads must be mapped to a single core
 			- ![[Pasted image 20230228210039.png]]
-
 - [ ]   3.3.3 - skim
 - [ ]   3.3.4-3.3.5 are my jam, but you don’t need to know them (skim)
 - [ ]   3.3.6.x - skip master/worker otherwise read
+	- [ ] Parallel programming patterns
+	- [ ] 
 - [ ]   3.4.x - master (3.4.3 is advanced, but may help if you like math)
 - [ ]   3.5 - master
 - [ ]   3.6 - master
+	- [ ] **Shared Variables**
+		- Each thread can access **shared** data in the global memory. Such shared data can be stored in shared variables which can be accessed as normal variables
+		- .A thread may also have private data stored in **private** variables, which cannot be accessed by other threads.
+		- Usually, a **sequentialization** is performed such that concurrent accesses are done one after another.
+		- To ensure that T2 reads the variable not before T1 has written the appropriate data, a **synchronization** operation is used. T1 stores the data into the shared variable before the corresponding synchronization point and T2 reads the data after the **synchronization** point.
+		- The term **race condition** describes the effect that the result of a parallel execution of a program part by multiple execution units depends on the order in which the statements of the program part are executed by the different units
+		- This may lead to **nondeterministic behavior**, since, depending on the execution order, different results are possible, and the exact outcome cannot be predicted.
+		- Program parts in which concurrent accesses to shared variables by multiple threads may occur, thus holding the danger of the occurrence of inconsistent values, are called **critical sections.**
+		- An error-free execution can be ensured by letting only one thread at a time execute a critical section. This is called **mutual exclusion.**
+	- [x] [[Communication Operations]]
+		- The corresponding programming models are therefore called **message passing programming** models.
+		- A **send operation** sends a data block from the local address space of the executing processor to another processor as specified by the operation. 
+		- A **receive operation** receives a data block from another processor and stores it in the local address space of the executing processor. This kind of data exchange is also called *point-to-point* communication
 - [ ]   3.7 - skim (really good stuff in here, mostly not on test)
 - [ ]   3.8 - skim (really good stuff in here, mostly not on test)

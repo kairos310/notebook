@@ -13,8 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/Review.md",
+                "file": "Parallel Systems/Cache/Cache Consistency.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b69d7de758acd62",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "80cf666cbe2a7cae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Systems/Communication Operations.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -146,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Systems/Review.md",
+                "file": "Parallel Systems/Cache/Cache Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Systems/Review.md",
+                "file": "Parallel Systems/Cache/Cache Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Systems/Review.md"
+                "file": "Parallel Systems/Cache/Cache Consistency.md"
               }
             }
           },
@@ -211,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,12 +251,18 @@
   },
   "active": "e55b38a674e0084d",
   "lastOpenFiles": [
+    "Parallel Systems/SPMD.md",
+    "Parallel Systems/Cache/Cache Consistency.md",
+    "Parallel Systems/Review.md",
+    "Parallel Systems/Communication Operations.md",
+    "Pasted image 20230228215419.png",
+    "Parallel Systems/Cache/Write Behaviour.md",
+    "Pasted image 20230228212217.png",
+    "Pasted image 20230228212053.png",
     "Pasted image 20230228210039.png",
     "Parallel Computing.md",
-    "Parallel Systems/Review.md",
     "Threads.md",
     "Parallel Systems/Memory Architecture.md",
-    "Parallel Systems/Cache/Cache Consistency.md",
     "Parallel Systems/Dependencies.md",
     "Parallel Systems/Cache/Cache.md",
     "Network Topology.md",
@@ -242,7 +270,6 @@
     "Excalidraw/Drawing 2023-01-30 11.36.08.excalidraw.md",
     "Interconnects.md",
     "Parallel Systems/Memory/Memory Layout.md",
-    "Parallel Systems/Communication Operations.md",
     "Parallel Systems/Critical section.md",
     "Excalidraw/Drawing 2023-02-28 14.49.56.excalidraw.md",
     "Openshmem.md",
@@ -252,11 +279,9 @@
     "Excalidraw/Drawing 2023-02-27 11.41.52.excalidraw.md",
     "Images/Pasted image 20230227113129.png",
     "Excalidraw/Drawing 2023-01-30 10.19.24.excalidraw.md",
-    "Parallel Systems/SMPD.md",
     "Parallel Systems/Cache/TLB.md",
     "Parallel Systems/Memory/Virtual Address.md",
     "Excalidraw/Drawing 2023-02-27 10.25.43.excalidraw.md",
-    "Climate Change.md",
     "Parallel Systems/Memory",
     "Parallel Systems/Cache",
     "Images/Pasted image 20230226220223.png",

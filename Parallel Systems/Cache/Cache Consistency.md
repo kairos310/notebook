@@ -19,7 +19,7 @@ since all memory accesses must be atomic and since memory accesses must be perfo
 - a collective, doesn't necessarily have to be blocking or synchronous, waits until it's in sync before using the variable
 - OpenMP
 	- barrier/ fence
-	- [[SMPD]]
+	- [[SPMD]]
 ### Release Consistency
 - break the sync operation into
 	- acquire - tells the data store we are about to enter the [[Critical section]]

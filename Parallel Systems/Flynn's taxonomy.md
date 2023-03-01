@@ -17,4 +17,4 @@ everyone does anything they want, everything they want, openMP
 
 --- 
 # SMPD
-![[SMPD]]
+![[SPMD]]
