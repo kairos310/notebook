@@ -70,11 +70,29 @@ Ch 3:
 			- lowest level of abstraction, registers and input output buffers 
 		- Architectural
 			- network of parallel platforms, memory platforms, sync async processing, execution mode *SIMD* *MIMD*
-		- Programming
-			- 
 		- Computational 
-			- cost functions, 
+			- The complexity of an algorithm should reflect the performance on a real computer. The RAM model is suitable for theoretical performance prediction although real computers have a much more diverse and complex architecture.
+		- Programming
+			- a parallel computing system in terms of the semantics of the programming language or programming environment
+		+ Task
+			+ executed in parallel mapped to processors, control flows also called *threads*			
 - [ ]   3.2-3.3.2 - mastery
+	- [ ] Parallelization of programs
+		- **Decomposition** through shared memory or message passing algorithms
+			- The goal of task decomposition is therefore to generate enough tasks to keep all cores busy at all times during program execution. 
+			- The tasks should contain enough computations such that the task execution time is large compared to the scheduling and mapping time required to bring the task to execution.
+			- The computation time of a task is also referred to as *granularity*
+		- **Assignment of tasks to processes or threads** 
+			- The number of processes or threads does not necessarily need to be the same as the number of physical processors or cores, but often the same number is used. 
+			- **scheduling algorithm**
+				- a method to determine an efficient execution order for a set of tasks of a given duration on a given set of execution units
+				- dependencies between the tasks, leading to precedence constraints
+			- assign the tasks for good load *balancing*
+		- **Mapping of processes**
+			- to physical cores
+			- If less cores than threads are available, multiple threads must be mapped to a single core
+			- ![[Pasted image 20230228210039.png]]
+
 - [ ]   3.3.3 - skim
 - [ ]   3.3.4-3.3.5 are my jam, but you don’t need to know them (skim)
 - [ ]   3.3.6.x - skip master/worker otherwise read

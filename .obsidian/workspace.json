@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RAW",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,6 +229,7 @@
   },
   "active": "e55b38a674e0084d",
   "lastOpenFiles": [
+    "Pasted image 20230228210039.png",
     "Parallel Computing.md",
     "Parallel Systems/Review.md",
     "Threads.md",
@@ -256,7 +257,6 @@
     "Parallel Systems/Memory/Virtual Address.md",
     "Excalidraw/Drawing 2023-02-27 10.25.43.excalidraw.md",
     "Climate Change.md",
-    "Excalidraw/Drawing 2023-02-27 10.18.56.excalidraw.md",
     "Parallel Systems/Memory",
     "Parallel Systems/Cache",
     "Images/Pasted image 20230226220223.png",
