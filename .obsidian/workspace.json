@@ -8,38 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe342d6cff674788",
+            "id": "c41fbafb4620a0c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "18bb19eb896f2c66",
+            "id": "91467913a74ed3e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Parallel Computing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1610adaa1a6c264a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Climate Change.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.1.16"
               }
             }
           }
@@ -73,10 +55,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sequential",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -110,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Parallel Computing.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,7 +149,7 @@
             }
           },
           {
-            "id": "c3b211d1b71fa753",
+            "id": "8cf919820034e94b",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -183,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,47 +177,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18bb19eb896f2c66",
+  "active": "91467913a74ed3e6",
   "lastOpenFiles": [
-    "Parallel Systems/Cache/Cache Consistency.md",
-    "Parallel Computing.md",
-    "Parallel Systems/Dependencies.md",
+    "Parallel Systems/Albert Notes.md",
     "Untitled.md",
-    "Excalidraw/Drawing 2023-03-06 11.05.36.excalidraw.md",
-    "Climate Change.md",
     "Thermodynamics.md",
-    "Parallel Systems/Cache/Cache.md",
-    "Parallel Systems/Communication Operations.md",
-    "Parallel Systems/SPMD.md",
-    "Convolutional Neural Networks.md",
-    "Machine Learning.md",
-    "Untitled",
-    "Parallel Systems/Network Topology.md",
-    "Parallel Systems/Review.md",
-    "Parallel Systems/Cache/Write Behaviour.md",
-    "Parallel Systems/Cache/Cache Associativity.md",
+    "Templater/test.md",
+    "Templater",
     "Parallel Systems/Memory/Virtual Address.md",
-    "Excalidraw/Drawing 2023-01-30 10.19.24.excalidraw.md",
-    "Excalidraw/Drawing 2023-02-28 23.16.15.excalidraw.md",
-    "Climate Change/HW_3_Climate_Change.md",
-    "Excalidraw/Drawing 2023-02-27 10.18.56.excalidraw.md",
-    "Images/Pasted image 20230228180037.png",
+    "Parallel Systems/Memory/RAM.md",
+    "Parallel Systems/Memory/Memory Layout.md",
+    "Parallel Systems/Memory/MMU.md",
+    "Parallel Systems/Cache/Write Behaviour.md",
+    "Parallel Systems/Cache/TLB.md",
+    "Parallel Systems/Cache/Cache.md",
+    "Parallel Systems/Cache/Cache Consistency.md",
+    "Parallel Systems/Cache/Cache Associativity.md",
+    "Parallel Systems/kernel.md",
+    "Parallel Systems/Threads.md",
+    "Parallel Systems/SPMD.md",
+    "Parallel Systems/Review.md",
+    "Parallel Systems/Openshmem.md",
+    "Parallel Systems/Network Topology.md",
+    "Parallel Systems/Memory Architecture.md",
+    "Parallel Systems/Memory",
+    "Parallel Systems/Interconnects.md",
     "Parallel Systems/Flynn's taxonomy.md",
+    "Parallel Systems/Dependencies.md",
     "Parallel Systems/Data Distribution.md",
+    "Parallel Systems/Critical section.md",
+    "Parallel Systems/Compute Nodes.md",
+    "Parallel Systems/Cache",
+    "Parallel Systems",
+    "Machine Learning",
     "Images/Pasted image 20230228224232.png",
     "Images/Pasted image 20230228215419.png",
     "Images/Pasted image 20230228212217.png",
     "Images/Pasted image 20230228212053.png",
     "Images/Pasted image 20230228210039.png",
-    "Parallel Systems/Threads.md",
-    "Parallel Systems/Memory Architecture.md",
-    "Excalidraw/Drawing 2023-01-30 11.36.08.excalidraw.md",
+    "Images/Pasted image 20230228180037.png",
     "Images/Pasted image 20230227113129.png",
-    "Parallel Systems/Memory",
-    "Parallel Systems/Cache",
     "Images/Pasted image 20230226220223.png",
     "Images/Pasted image 20230225132845.png",
-    "Untitled.canvas",
-    "Images/Pasted image 20230225132431.png"
+    "Images/Pasted image 20230225132431.png",
+    "Images/Distributed Memory.canvas",
+    "Images",
+    "Excalidraw",
+    "Climate Change",
+    "Untitled.canvas"
   ]
 }
