@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c41fbafb4620a0c4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Parallel Systems/Albert/Albert Illustration/efficiency.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "91467913a74ed3e6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-03-08 12.41.44.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "a4fc0cb96467f820",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Parallel Systems/Albert/Albert Illustration/efficiency.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "7d02a25d4f6f8243",
             "type": "leaf",
             "state": {
@@ -78,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,18 +203,18 @@
   },
   "active": "f8593481e4b57806",
   "lastOpenFiles": [
-    "Parallel Systems/Albert/Albert Illustration/efficiency.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-08 12.41.44.excalidraw.md",
-    "Parallel Systems/Interconnects.md",
-    "Excalidraw/Drawing 2023-03-08 12.39.53.excalidraw.md",
-    "Parallel Systems/Albert/Albert Notes.md",
-    "Images/Pasted image 20230308114417.png",
-    "Parallel Systems/Openshmem.md",
-    "Parallel Computing.md",
     "Untitled.canvas",
-    "2023-03-08.md",
+    "Parallel Systems/Albert/Albert Illustration/efficiency.excalidraw.md",
+    "Parallel Systems/Albert/Albert Notes.md",
     "Parallel Systems/Albert/Albert Illustration",
     "Parallel Systems/Albert",
+    "Images/Pasted image 20230308114417.png",
+    "Excalidraw/Drawing 2023-03-08 12.41.44.excalidraw.md",
+    "Excalidraw/Drawing 2023-03-08 12.39.53.excalidraw.md",
+    "2023-03-08.md",
+    "Parallel Systems/Interconnects.md",
+    "Parallel Systems/Openshmem.md",
+    "Parallel Computing.md",
     "CubeSat.md",
     "Parallel Systems/Communication Operations.md",
     "Untitled.md",
@@ -263,7 +233,6 @@
     "Parallel Systems/kernel.md",
     "Parallel Systems/Threads.md",
     "Parallel Systems/SPMD.md",
-    "Parallel Systems/Review.md",
     "Parallel Systems/Memory",
     "Parallel Systems/Cache",
     "Parallel Systems",
