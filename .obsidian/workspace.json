@@ -24,21 +24,9 @@
                 "currentVersion": "1.1.16"
               }
             }
-          },
-          {
-            "id": "21bb4da8d3eb50c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Systems/Albert Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Systems/Albert Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Systems/Albert Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Parallel Systems/Albert Notes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,7 +177,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "21bb4da8d3eb50c3",
+  "active": "91467913a74ed3e6",
   "lastOpenFiles": [
     "Parallel Systems/Albert Notes.md",
     "Untitled.md",
