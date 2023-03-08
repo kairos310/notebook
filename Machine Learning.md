@@ -67,5 +67,8 @@ Challenge: 
 Use the np functions instead of the math ones
 
 # Neural Networks
+*activation functions*
 
 ![[Drawing 2023-02-23 09.41.05.excalidraw]]
+
+[[Convolutional Neural Networks]]

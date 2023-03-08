@@ -172,13 +172,98 @@ parachute
 distribute memory over multiple cores
 <br>matrix operations are faster 
 <br>can use an adjacency matrix</div>
-blockwise
-cyclic
-bloc cyclic
-![[Drawing 2023-02-22 11.14.42.excalidraw|600]]
-![[Pasted image 20230222111736.png]]
 
 
+```c
+#include <shmem.h>
+
+int main(){
+	static
+	shmem_init();
+	rank = shmem_my_me();
+	receiver = 1% shmem_n_pes();
+	
+	if(rank = 0){
+		int arc = 33
+		shmem_put(&targ, &src, 1, receiver) //the put blocks
+	}
+	
+	shmem_barrier_all(); //waits until 33 is placed in memory
+	
+	if(rank == receiver){
+		print()
+	}
+	
+	shmem_finalize();
+	return
+
+}
+```
+
+```sh
+#!/bin/bash
+#SBATCH -n 960
+#SBATCH -N 20
+#SBATCH --ntasks-per-node=48
+
+srun --mpi=pmi2 -o  ~path args 
+
+```
+
+can add pointer to the global_s struct
+use eprintf to debug
+don't use arrays of size N
+	use many arrays of size N/P
+copy main over to lab 3
+two arrays, bodies and next
+copy next to bodies when done computation
+Ex. 1000 bodies and 2 processors
+[0. ..  499], [500 - 999]
+this is actually 0
+
+shemem_calloc - collective (everyone calls it at the same time, waits until everyone gets there) zeroes out the zeroes, pointer to the portion of the array,
+shemem _free_
+
+shmem_get(dest, src, size, pe) to read things
+
+shememinit
+getmbp
+git mymp
+getbarrier every timestep
+calloc to allocate arrays that's shared - bodies
+next - local private
+variations of put and get, variations bring performance
+
+**basics**
+calloc
+barrier
+getmem
+
+
+calculate it's own forces, add to next
+reduction on all next
+move next to bodies 
+```c
+for(ts = 0; ts < g.nsteps; ts++){
+	computeforce(); // bodies -> nex[]
+	barrier()
+	memcpy() // next -> bodies
+	barrier()
+}
+```
+
+```
+bodies
+530 / 250 = 2;
+530 % 250 = 30;
+shmem_getmem(&temp, &bodies[30], sizeof(body_t) * nbody, rank)
+
+```
+
+![[Drawing 2023-03-06 11.05.36.excalidraw|600]]
+
+
+---
 
 # [[Dependencies]]
 ### Cost
@@ -188,6 +273,15 @@ $$Cost(n)= C_{p}(n) = processor\ count \times parallel\ execution\ time = p \cdo
 $$Speedup=S_{p}(n)=\frac{T^*(n)}{T_{p}(n)}=\frac{time\ sequential}{time\ parallel}$$
 ### Efficiency
 $$E_p(n)=\frac{T^*(n)}{C_{p}(n)}=\frac{time\ sequential}{parallel\ execution\ time}=\frac{speedup}{processor\ count}$$
+### Communication times 
+$t_{comm}$ =communication time
+$t_s$ = startup cost
+$t_b$ = transfer cost 
+$T_o$ = overhead
+$T_s$ = sequential time
+$T_p$ = parallel time
+$$t_{comm}=t_{s}+Bt_b$$
+$$T_{o} = p T_{p}-T_{s}$$
 
 ---
 # [[Memory Layout]]

@@ -4,5 +4,7 @@
   "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "graph-analysis",
+  "obsidian-timelines"
 ]

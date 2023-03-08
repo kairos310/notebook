@@ -1,0 +1,1 @@
+$$\Omega=(\frac{eTK\frac{3}{2}}{\epsilon 3})^{3N}$$

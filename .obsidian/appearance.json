@@ -1,7 +1,10 @@
 {
-  "accentColor": "#b6d798",
-  "baseFontSize": 15,
+  "accentColor": "#a7d9a1",
+  "baseFontSize": 14,
   "cssTheme": "Obsidian gruvbox",
   "translucency": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }

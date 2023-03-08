@@ -96,6 +96,41 @@ $T_e$=Earth's effective temperature
 S = Solar insolation = $S\pi R^2$
 A =Earth's albedo ~ 0.3
 $$energy\ in = energy\ out$$
-$$S\piR^2-SA\piR^2=\sigmaT^{4}_{e}$$
+$$S\pi R^{2} - SA \pi R^{2} = \sigma T^{4}_{e}$$
 $$\sigma T^4_e=\frac{S}{4}(1-A)$$
-![[Drawing 2023-02-27 10.18.56.excalidraw]]
+![[Drawing 2023-02-27 10.25.43.excalidraw|600]]
+[[HW_3_Climate_Change]]
+
+The atmosphere absorbs based on its spectrum
+Earth's atmosphere transmits visible light but absorbs IR due to greenhouse gases
+In steady state, planetary energy balance means Solar energy striking Earth = energy reflected + emitted b the Earth. 
+**The greenhouse effect:** The upper levels of the atmosphere
+400ppm carbon dioxide in the atmosphere
+
+
+Venus - 96% carbon dioxide, the runaway greenhouse effect 
+global average surface temp - 300 - 400 c 
+
+Net Down - radiative forcing from greenhouse effect.
+radiative forcing 
+
+**Global Warming Potential**
+<div class="def">index measuring radiative forcing following emission of unit mass of a given substance over a chosen time, relative to carbon dioxide. combined effect of the differing times  these substances remain in the stratosphere. effectiveness in radiative forcing. </div>
+
+```
+
+```
+Other greenhouse gasses
+- methane 
+- nitrous oxide
+- surface ozone
+- fluorinated gasses
+	- HFCs, PFCs, $SF_6$, $NF_3$
+	- *halocarbons* - compounds containing carbon, halogens and sometimes hydrogen
+	- also greenhouse gasses
+	- destroy ozone - HCFC
+	- regulated by *Montreal protocol*
+	- Kigali Amendment - bans HFC
+
+
+

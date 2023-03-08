@@ -8,99 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e55b38a674e0084d",
+            "id": "fe342d6cff674788",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/Cache/Cache Consistency.md",
+                "file": "Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8b69d7de758acd62",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "80cf666cbe2a7cae",
+            "id": "18bb19eb896f2c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/Communication Operations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c41fbafb4620a0c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threads.md",
+                "file": "Parallel Computing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "035685dd1cb512c2",
+            "id": "1610adaa1a6c264a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/Memory Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08ec7f97a6bdda7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Systems/Cache/Cache Consistency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45b59ac019b885e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Systems/Dependencies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13a06bbce3a5d1b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Topology.md",
+                "file": "Climate Change.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sequential",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Systems/Cache/Cache Consistency.md",
+                "file": "Parallel Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Systems/Cache/Cache Consistency.md",
+                "file": "Parallel Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Systems/Cache/Cache Consistency.md"
+                "file": "Parallel Computing.md"
               }
             }
           },
@@ -226,9 +169,17 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c3b211d1b71fa753",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -249,45 +200,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e55b38a674e0084d",
+  "active": "18bb19eb896f2c66",
   "lastOpenFiles": [
-    "Parallel Systems/SPMD.md",
     "Parallel Systems/Cache/Cache Consistency.md",
-    "Parallel Systems/Review.md",
-    "Parallel Systems/Communication Operations.md",
-    "Pasted image 20230228215419.png",
-    "Parallel Systems/Cache/Write Behaviour.md",
-    "Pasted image 20230228212217.png",
-    "Pasted image 20230228212053.png",
-    "Pasted image 20230228210039.png",
     "Parallel Computing.md",
-    "Threads.md",
-    "Parallel Systems/Memory Architecture.md",
     "Parallel Systems/Dependencies.md",
+    "Untitled.md",
+    "Excalidraw/Drawing 2023-03-06 11.05.36.excalidraw.md",
+    "Climate Change.md",
+    "Thermodynamics.md",
     "Parallel Systems/Cache/Cache.md",
-    "Network Topology.md",
-    "Pasted image 20230228180037.png",
-    "Excalidraw/Drawing 2023-01-30 11.36.08.excalidraw.md",
-    "Interconnects.md",
-    "Parallel Systems/Memory/Memory Layout.md",
-    "Parallel Systems/Critical section.md",
-    "Excalidraw/Drawing 2023-02-28 14.49.56.excalidraw.md",
-    "Openshmem.md",
-    "Excalidraw/Drawing 2023-02-27 23.04.26.excalidraw.md",
-    "Templater/test.md",
+    "Parallel Systems/Communication Operations.md",
+    "Parallel Systems/SPMD.md",
+    "Convolutional Neural Networks.md",
     "Machine Learning.md",
-    "Excalidraw/Drawing 2023-02-27 11.41.52.excalidraw.md",
-    "Images/Pasted image 20230227113129.png",
-    "Excalidraw/Drawing 2023-01-30 10.19.24.excalidraw.md",
-    "Parallel Systems/Cache/TLB.md",
+    "Untitled",
+    "Parallel Systems/Network Topology.md",
+    "Parallel Systems/Review.md",
+    "Parallel Systems/Cache/Write Behaviour.md",
+    "Parallel Systems/Cache/Cache Associativity.md",
     "Parallel Systems/Memory/Virtual Address.md",
-    "Excalidraw/Drawing 2023-02-27 10.25.43.excalidraw.md",
+    "Excalidraw/Drawing 2023-01-30 10.19.24.excalidraw.md",
+    "Excalidraw/Drawing 2023-02-28 23.16.15.excalidraw.md",
+    "Climate Change/HW_3_Climate_Change.md",
+    "Excalidraw/Drawing 2023-02-27 10.18.56.excalidraw.md",
+    "Images/Pasted image 20230228180037.png",
+    "Parallel Systems/Flynn's taxonomy.md",
+    "Parallel Systems/Data Distribution.md",
+    "Images/Pasted image 20230228224232.png",
+    "Images/Pasted image 20230228215419.png",
+    "Images/Pasted image 20230228212217.png",
+    "Images/Pasted image 20230228212053.png",
+    "Images/Pasted image 20230228210039.png",
+    "Parallel Systems/Threads.md",
+    "Parallel Systems/Memory Architecture.md",
+    "Excalidraw/Drawing 2023-01-30 11.36.08.excalidraw.md",
+    "Images/Pasted image 20230227113129.png",
     "Parallel Systems/Memory",
     "Parallel Systems/Cache",
     "Images/Pasted image 20230226220223.png",
     "Images/Pasted image 20230225132845.png",
     "Untitled.canvas",
-    "Images/Pasted image 20230225132431.png",
-    "Images/Pasted image 20230214183908.png"
+    "Images/Pasted image 20230225132431.png"
   ]
 }
