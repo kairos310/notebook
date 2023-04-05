@@ -2,9 +2,5 @@
   "quick-latex",
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
-  "templater-obsidian",
-  "obsidian-git",
-  "graph-analysis",
-  "obsidian-timelines"
+  "cm-editor-syntax-highlight-obsidian"
 ]

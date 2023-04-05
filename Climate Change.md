@@ -1,4 +1,5 @@
-	is Anthropogenic, easiest seen through deforestation
+
+ is Anthropogenic, easiest seen through deforestation
 
 Non Anthropogenic change
 - can be caused by circulation patterns in the deep ocean
@@ -115,11 +116,9 @@ Net Down - radiative forcing from greenhouse effect.
 radiative forcing 
 
 **Global Warming Potential**
-<div class="def">index measuring radiative forcing following emission of unit mass of a given substance over a chosen time, relative to carbon dioxide. combined effect of the differing times  these substances remain in the stratosphere. effectiveness in radiative forcing. </div>
+<div class="def" value="#rem">index measuring radiative forcing following emission of unit mass of a given substance over a chosen time, relative to carbon dioxide. combined effect of the differing times  these substances remain in the stratosphere. effectiveness in radiative forcing. </div>
 
-```
 
-```
 Other greenhouse gasses
 - methane 
 - nitrous oxide
@@ -132,5 +131,34 @@ Other greenhouse gasses
 	- regulated by *Montreal protocol*
 	- Kigali Amendment - bans HFC
 
+### Methane
+2nd strongest anthropogenic greenhouse gas
+25 x more potent than $CO_2$
+most of it comes from leakage, because the ratio is large
+
+### Nitrous Oxide
+- food production/ agriculture
+- oceanic - algae bloom due to nitrogen runoff
+- microbes - nitrogen fixing bacteria can take nitrogen from the atmosphere sone create methane
 
 
+
+### Pressure
+Gradient of the pressure opposes gravity. 
+$$\frac{pressure}{ height}=\frac{dP}{dh}=-\rho g$$
+M - molar mass of air
+$$P=\frac{\rho RT}{M}$$
+$$P=P_{0} e^{\frac{-h}{h_{0}}}$$
+$$\frac{-h}{h_{0}} \rightarrow scale\ height$$
+how much the pressure decreases with h_0
+temperature increases up to the mesosphere because of ozone, then decreases once entering the mesosphere at the freezing point of water
+
+cold air has higher pressure, higher density moves downwards. 
+*vertical motion*
+**convective uplift** or **subsidence**
+convective -> circulatory patterns due to air replacing the missing air due to movement
+horizontal motion
+
+
+
+percentage exposed to dangerous temperatures

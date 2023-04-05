@@ -170,3 +170,30 @@ does not cache
 
 memory data will always be the most recent one
 ```
+
+
+
+# Bypassing Cache
+**non-temporal** write operations - data will not be reused anytime soon
+	processor uses #write_combining to fill cache lines
+	pointers must be properly aligned
+	avoid reading the cache line before its written
+	avoid polluting the cache line with data that might not be needed soon
+	
+
+<span style="font-size:5em;font-weight:800">Optimizations</span>
+### optimizations to access memory sequentially
+processor prefetching
+transposing a matrix to make accesses sequential and maximize cache hit rate
+handle two iterations of a middle loop while executing the inner loop, query the cache line size, do computation on exactly the entire cache line
+vectorization - considered SIMD operations
+make sure all bytes of the cache line are used in entirety before going on the next step
+compress data structures to align them with caches
+
+1. Always move the structure element which is most likely to be the critical word to the beginning of the structure. 
+2. When accessing the data structures, and the order of access is not dictated by the situation, access the elements in the order in which they are defined in the structure
+
+align data 
+separate date structures, don't cache unnecessary data.
+	*conflict misses* happen when there's an over use of the cache set. 
+	

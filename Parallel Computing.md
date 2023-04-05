@@ -165,6 +165,28 @@ get the times, the speedups
 
 omp_wget_time() time stamp as double, don't need to reinitialize
 
+
+##### Scheduling
+for i = 0, 1,2,3,4 ... 
+static scheduling: 
+	assigns each task to each processor beforehand
+
+no read after read dependency, multiple threads can read at the same time
+
+parallelize on the outermost loop
+each thread has its own distinct i, therefore, guaranteeing only one thread will modify c i at the same time 
+
+parallelize on the innermost loop
+each thread's 
+```
+c[  i  ] [ j ] has to wait for  
+```
+
+```
+#pragma omp critical
+//locks the following statements
+//bad time when it's on the innermost loop
+```
 ### LAB 3
 n-body simulation, big shared array one processor
 parachute
@@ -263,6 +285,23 @@ shmem_getmem(&temp, &bodies[30], sizeof(body_t) * nbody, rank)
 ![[Drawing 2023-03-06 11.05.36.excalidraw|600]]
 
 
+
+-Skip coalesce loops
+
+communicate with other cache that is non blocking 
+
+### Lab 4
+password decryption
+use a one way hash
+string -> hash -> \#string
+crypt / md5
+reverse DES cypher, symmetric cypher both the same size
+
+
+password ASCII range from 32 - 126
+\\s to ~ 
+
+
 ---
 
 # [[Dependencies]]
@@ -273,6 +312,21 @@ $$Cost(n)= C_{p}(n) = processor\ count \times parallel\ execution\ time = p \cdo
 $$Speedup=S_{p}(n)=\frac{T^*(n)}{T_{p}(n)}=\frac{time\ sequential}{time\ parallel}$$
 ### Efficiency
 $$E_p(n)=\frac{T^*(n)}{C_{p}(n)}=\frac{time\ sequential}{parallel\ execution\ time}=\frac{speedup}{processor\ count}$$
+sometimes because the problem gets so small that cache misses become very few and efficiency can become more than 100%
+
+**Exploration / Eureka problem**
+<div class="def">
+problems that end when the problem is found, can have different end times based on "luck"
+</div>
+
+
+$F_{p}=$ fraction of work that is parallel
+$S_{p}=$ speedup parallel
+$$overall\ speedup=S=\frac{1}{1-F_{p}+\frac{F_{p}}{S_{p}}}$$
+Its the sum of all the parts $\sum \frac{F_{p}}{S_{p}}$
+Max Speedup must consider the largest fraction of time
+
+
 ### Communication times 
 $t_{comm}$ =communication time
 $t_s$ = startup cost
@@ -326,4 +380,36 @@ x86 -
 - index the page table
 - cached to TLB
 # Test
-![[Review]]
+[[Review]]
+
+
+# Test 2
+metrics, CPI ... 
+- [ ] 4.1
+- [ ] speedup 
+	- [ ] 
+- [ ] efficiency
+- [ ] Amdahl's law
+	- [ ] parallel execution time cannot be arbitrarily reduced by parallelization
+	- [ ] $$S_{p} = \frac{T^{*}(n)}{f \cdotp T^{*}(n) + \frac{1-f}{p}T^{*(n)}}=\frac{1}{f+\frac{1-f}{p}}<=\frac{1}{f}$$
+- [ ] 4.3
+- [ ] asymptotic times
+	- [ ] fully conencted 
+	- [ ] ring 
+	- [ ] mesh
+	- [ ] binary tree
+	- [ ] single broadcast
+	- [ ] reduce
+	- [ ] multi
+	- [ ] exchange
+	- [ ] total
+- [ ] 4.4
+	- [ ] parameterized equation for work in terms of p and n
+- [ ] short answer on computational model
+- [ ] not log p model
+- [ ] loop scheduling and loop tiling 
+- [ ] 4.6.1 up to loop coalescing
+- [ ] 4.6.2 gist
+- [ ] MPI 5.1 
+- [ ] 5.2 gist, how the collectives work
+- [ ] 

@@ -37,6 +37,7 @@ $$ \sum_{i=0}^{j}{X_{i,j}}$$
 ![[Pasted image 20230228212217.png]]
 every processor performs a reduction on things it gets from specific ranks
 #### total-exchange/ all to all
+![[Pasted image 20230404162007.png]]
 - similar to a transpose
 $$P_{1} X_{11}\rightarrow P_{1} X_n$$
 - sends every bit of data to all processors

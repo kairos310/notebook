@@ -36,3 +36,19 @@ hypercube - power of 2 nodes
 
 
 The **Hamming distance** of two binary words of the same length is defined as the number of bit positions in which their binary representations differ. In a K-dimensional cube, their hamming distance should reflect on 
+
+
+speed:
+broadcast < scatter < multi-broadcast
+
+##### Linear array
+broadcast $\theta(p)$
+multi-broadcast $\theta(p)$
+scatter $\theta(p)$
+all to all (total exchange) $p^{2}/4=\theta(p^2)$
+
+##### Ring
+broadcast $p/2=\theta(p)$
+multi-broadcast $floor(p/2)=\theta(p)$
+scatter = $\theta(p)$ 
+all to all = $\theta(p^2)$
