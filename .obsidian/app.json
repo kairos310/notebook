@@ -10,5 +10,11 @@
   },
   "vimMode": false,
   "tabSize": 4,
-  "attachmentFolderPath": "Images"
+  "attachmentFolderPath": "Images",
+  "autoPairBrackets": true,
+  "userIgnoreFilters": [
+    "Excalidraw/",
+    "Images/",
+    "Templater/"
+  ]
 }

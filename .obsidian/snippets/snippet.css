@@ -1,3 +1,7 @@
+:root{
+    --blockquote-background-color: #222222;
+}
+
 .def{
     background: #323232;
     padding:0.5em;
@@ -6,4 +10,28 @@
 .def:hover{
     background: #323242;
     cursor:pointer;
+}
+
+
+.quote{
+    background: #252532;
+    padding:0.5em;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.quote:hover{
+    background: #323242;
+    cursor:pointer;
+}
+.mermaid svg { 
+  max-width: 100%; 
+  height: auto;
+  overflow: visible;
+}
+
+.cm-preview-code-block{
+    width:150%;
 }

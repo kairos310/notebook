@@ -1,7 +1,7 @@
 {
-  "accentColor": "#a7d9a1",
-  "baseFontSize": 14,
-  "cssTheme": "Obsidian gruvbox",
+  "accentColor": "#6f8f61",
+  "baseFontSize": 19,
+  "cssTheme": "",
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [

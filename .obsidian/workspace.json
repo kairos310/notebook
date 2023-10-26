@@ -8,50 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef16fcd7f46beb86",
+            "id": "a6f9e088b30287b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Software Engineering.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9b5911f8a73a3e56",
+            "id": "234171a974f5fc24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/Communication Operations.md",
+                "file": "Software Engineering/System Architecture and Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "785aa8d0399fb889",
+            "id": "e5e18c1c559213ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Systems/SPMD.md",
+                "file": "Notes/Grad School.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2b8631da4d129995",
+            "id": "4f5ba6a2a7dbfa03",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Russian Religious Mind/Russian Religuous Mind.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,8 +85,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "all unity",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
@@ -96,13 +101,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e6fb9a67521ce0d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303.51103591918945
   },
   "right": {
     "id": "9f6f1e11f33d8ad5",
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Russian Religious Mind/Russian Religuous Mind.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Russian Religious Mind/Russian Religuous Mind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Computing.md"
+                "file": "Russian Religious Mind/Russian Religuous Mind.md"
               }
             }
           },
@@ -177,13 +189,22 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "5a4d6d0f4188a750",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,46 +219,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ef16fcd7f46beb86",
+  "active": "4f5ba6a2a7dbfa03",
   "lastOpenFiles": [
-    "Parallel Systems/Communication Operations.md",
-    "Parallel Systems/SPMD.md",
-    "Parallel Computing.md",
-    "Images/Pasted image 20230404162007.png",
-    "Templater/def.md",
-    "Climate Change.md",
-    "HW 4.md",
-    "CubeSat.md",
-    "Excalidraw/Drawing 2023-03-24 11.24.01.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-22 11.12.59.excalidraw.md",
-    "Excalidraw/Drawing 2023-01-30 10.19.24.excalidraw.md",
-    "Parallel Systems/Cache/Cache.md",
-    "Parallel Systems/Network Topology.md",
-    "Parallel Systems/Memory Architecture.md",
-    "Thermodynamics.md",
-    "Parallel Systems/Memory/Virtual Address.md",
-    "Templater/large title.md",
-    "Templater/test.md",
-    "Machine Learning.md",
-    "Parallel Systems/Openshmem.md",
-    "Parallel Systems/Cache/Write Behaviour.md",
-    "Excalidraw/Drawing 2023-03-20 11.37.53.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-20 10.21.57.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-20 10.23.43.excalidraw.md",
-    "Convolutional Neural Networks.md",
-    "Excalidraw/Drawing 2023-03-09 09.46.04.excalidraw.md",
+    "Software Engineering/System Architecture and Design.md",
+    "Software Engineering/Review.md",
+    "Software Engineering.md",
+    "Notes/Grad School.md",
+    "Software Engineering",
+    "Software Engineering/User Stories.md",
+    "Russian Religious Mind/Russian Religuous Mind.md",
+    "Russian Religious Mind/All Unity.md",
+    "Russian Religious Mind/Holy Foolishness.md",
+    "Russian Religious Mind/Review.md",
+    "Russian Religious Mind/Elders.md",
+    "Russian Religious Mind/Divine Liturgy.md",
+    "Russian Religious Mind/Ascetic Struggle.md",
+    "Russian Religious Mind/St. Silouan.md",
+    "Russian Religious Mind/Icons.md",
+    "Russian Religious Mind/Russian Orthodox.md",
+    "Software Engineering/Software Development Life Cycle.md",
+    "Software Architecture/ Design.md",
+    "Software Architecture",
+    "Russian Religious Mind/Slavic Pagan Gods.md",
+    "Images/Pasted image 20231010145559.png",
     "Untitled",
-    "Images/Pasted image 20230228180037.png",
-    "Images/Pasted image 20230228224232.png",
-    "Images/Pasted image 20230228215419.png",
-    "Images/Pasted image 20230228212217.png",
-    "Images/Pasted image 20230228212053.png",
-    "Images/Pasted image 20230228210039.png",
-    "Images/Pasted image 20230227113129.png",
+    "Images/Pasted image 20231009164854.png",
+    "Images/Pasted image 20231009164826.png",
+    "Images/Pasted image 20231009164506.png",
+    "Images/Pasted image 20231009164228.png",
+    "Images/Pasted image 20231009164147.png",
+    "Images/Pasted image 20231009164046.png",
+    "Images/Pasted image 20231009164023.png",
+    "Images/Pasted image 20231009164005.png",
+    "Images/Pasted image 20231009163859.png",
+    "User Story.md",
+    "Russian Religious Mind.md",
+    "Russian Religious Mind/Popular Orthodoxy.md",
+    "Notes",
+    "Phys",
+    "Russian Religious Mind/Love in Russian Orthodoxy.md",
+    "Notes/Git.md",
+    "Notes/AEC notes.md",
+    "Phys/Electromagnetic Theory.md",
+    "Phys/Climate Change.md",
+    "Russian Religious Mind",
     "Parallel Systems/Memory",
     "Parallel Systems/Cache",
-    "Images/Pasted image 20230226220223.png",
-    "Images/Pasted image 20230225132845.png",
     "Untitled.canvas"
   ]
 }
