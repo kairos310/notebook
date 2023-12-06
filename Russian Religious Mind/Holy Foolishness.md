@@ -78,3 +78,4 @@ self-abasement and self-abnegation but also holiness and charity, simultaneous e
 different perspective according to the wisdom of the other world
 being one with God, is to give up what defines a human being materialistically
 spiritual pain, recognition of ones own sin, that elevates one to a spiritually higher place
+

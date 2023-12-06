@@ -1,6 +1,13 @@
 :root{
     --blockquote-background-color: #222222;
 }
+.theme-dark{
+    --bold-weight: 600;
+    --italic-color: white;
+    --bold-color: white;
+    color:#bbb;
+    font-weight: 400;
+}
 
 .def{
     background: #323232;
@@ -34,4 +41,12 @@
 
 .cm-preview-code-block{
     width:150%;
+}
+
+@media print {
+
+    body {
+        background-color: #222222;
+        color: white;
+    } 
 }

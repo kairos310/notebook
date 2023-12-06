@@ -1,6 +1,9 @@
 ## Introduction to Software Engineering
 differences between programming and software engineering
+	*“Software engineering” differs from “programming” in dimensionality: programming is about producing code. Software engineering extends that to include the maintenance of that code for its useful life span.*
+
 dimensions of software engineering (see lecture notes)
+
 Hyrum’s Law
 best practices:
 	design software that is easy to change
@@ -61,7 +64,10 @@ List and describe the phases (see lecture notes)
 Development methodologies (be able to describe and contrast them with each other)
 	Waterfall
 	Iterative Development
+		actually make the product every time 
 	Agile Development
+		incremental and iterative
+		incremental in the sense that there are phases and you're not finishing it all at one. 
 		Agile Manifesto
 			Individuals and interactions over processes and tools
 			Working software over comprehensive documentation

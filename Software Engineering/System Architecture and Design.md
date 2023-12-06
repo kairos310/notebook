@@ -45,8 +45,9 @@ flowchart TB
 	input1 --> branch
 	branch --> yes --> step2
 	branch --> no --> step3
-	step2[process step]
-	step3[process step]
+	stop([terminal])
+	step2[process step] --> stop
+	step3[process step] --> stop
 	input1[/input/]
 ```
 
@@ -110,9 +111,10 @@ classA --|> classB : Inheritance
 classC --* classD : Composition
 classE --o classF : Aggregation
 classG --> classH : Association
-classI -- classJ : Link(Solid)
-classK ..> classL : Dependency
 classM ..|> classN : Realization
+classK ..> classL : Dependency
+
+classI -- classJ : Link(Solid)
 classO .. classP : Link(Dashed)
 ```
 

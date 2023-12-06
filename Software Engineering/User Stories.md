@@ -8,6 +8,7 @@ questions they do and don't answer
 	how, when
 acceptance criteria
 	given --(circumstance)-- when --(action)--- (then) ------
+	tangible way of testing 
 	priority
 	story points
 	level of effort
@@ -15,6 +16,9 @@ acceptance criteria
 	risk of doing and not doing
 EPIC vs. User Story vs. Task
 	Epic collection of > user story made up of> task
+	epic is one big user story, umbrella for a larger functionality
+	user story, sweet spot in terms of value, 
+	smaller steps don't have any value, combined total of tasks gives value in user story
 
 
 Applied Knowledge:

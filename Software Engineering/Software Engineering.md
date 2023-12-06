@@ -200,3 +200,47 @@ its behavior accordingly.
 
 
 [[Software Engineering/Review]]
+
+# Kanban Board
+prioritization
+	top to bottom by priority, what to do first
+work in progress limits 
+	limit on how many things can be out of the backlog 
+	can block until everyone finishes a task
+moving work 
+	do something you have the capacity to, don't assign other people work
+sort things in the backlog
+planning poker - starts a conversation if there's disagreements on the weight of the task
+more github continuous integration, regression test cases, change didn't break old work, has workflow with github, merge and check - in kicks off test cases, demos in class, code coverage analysis. 
+test driven development - copilot 
+weighted shortest job first
+	when something is short and small, has a decent value to it, do that one because it's easy
+
+#### trello 
+
+
+| Backlog            | Answer (2)  (in progress) | Validate (2) | Done (2) |
+| ------------------ | ------------------------- | ------------ | -------- |
+| overview of kanban | prioritization            |              |          |
+| roadmap of class   |                           |              |          |
+| trello             |                           |              |          |
+|                    |                           |              |          |
+
+| Backlog | Answer doing | Answer done | Validate doing | Validate done | Done (2) |
+| ------- | ------------ | ----------- | -------------- | ------------- | -------- |
+|         |              |             |                |               |          |
+
+ can split each section into doing and done
+ done means the next phase hasn't begun yet
+ 
+
+Full stack w/ spring
+Final project: 
+figure out user story and epics 
+dependencies and frameworks
+what features are necessary and what are nice to have
+roadmap and milestones timeline
+
+[[Testing]]
+
+[[Databases]]

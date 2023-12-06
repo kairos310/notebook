@@ -11,41 +11,55 @@
       "query": "path:\"Parallel Systems\"",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 6327471
       }
     },
     {
       "query": "path:\"Climate Change\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5274174
       }
     },
     {
       "query": "path:Excalidraw",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 3881787
       }
     },
     {
       "query": "path:\"Machine Learning\"",
       "color": {
         "a": 1,
-        "rgb": 5665935
+        "rgb": 5850309
+      }
+    },
+    {
+      "query": "path:\"Russian Religious Mind\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Software Engineering\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14722386
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.30798484735943,
+  "nodeSizeMultiplier": 1.60945454545455,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.450865334620813,
-  "repelStrength": 8.06803832726733,
-  "linkStrength": 0.788457253212508,
+  "centerStrength": 1,
+  "repelStrength": 20,
+  "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.6451307090193983,
+  "scale": 0.370671897558005,
   "close": false
 }
