@@ -11,8 +11,12 @@ docker pull intel/openfl
 ```
 Run with open port
 ```
-docker run -it --network host -e DIRECTOR=$DIRECTOR intel/openfl bash
-  ```
+docker run -it --rm --network host -e DIRECTOR=$DIRECTOR intel/openfl bash
+```
+
+```
+docker run -it --rm -p 50550:50550 -e DIRECTOR=$DIRECTOR intel/openfl bash
+```
 
 ```
 cd /openfl/openfl-tutorials/interactive_api/PyTorch_MedMNIST_2D/director  
@@ -23,13 +27,16 @@ pip install -r requirements.txt
 ```
 cd /openfl/openfl-tutorials/interactive_api/PyTorch_MedMNIST_2D/envoy  
 pip install -r requirements.txt  
-./start_envoy.sh envoy_name envoy_config.yaml  
 ```
 
 ```bash
-sed -i 's/\(listen_port: \) [0-9]*/\1 '"$DIRECTOR"'/' director_config.yaml
+sed -i 's/\(listen_port: \).*/\1 '"$DIRECTOR"'/' director_config.yaml
 DIRECTOR=12001
-sed -i 's/\(-dp\) [0-9]*/\1 '"$DIRECTOR"'/' start_envoy.sh
+sed -i 's/\(-dp \).*/\1'"$DIRECTOR"'/' start_envoy.sh
+```
+
+```shell
+./start_envoy.sh envoy_name envoy_config.yaml  
 ```
 
 ```
@@ -58,6 +65,8 @@ ssh -L 8888:localhost:8888 zwong@10.42.24.55
 ```
 Then open up your browser of choice and 
 
-```
-docker run -it nvflare/nvflare-dev bash
+
+Docker bind mount dir
+```sh
+--mount type=bind,source="$(pwd)"/model,target=/model \
 ```

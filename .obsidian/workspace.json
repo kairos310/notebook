@@ -8,104 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "05fd8187c5bb5a1e",
+            "id": "cdc7892810c3da6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Russian Religious Mind/Farewell to Matyora.md",
+                "file": "Executive Summary.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2e569ac973b9a82a",
+            "id": "a40db5a7d437db4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/LLM.md",
+                "file": "Testing Protocol.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ddae76fe73f29b44",
+            "id": "e5f01b5bdbbe4fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Ultrasound.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43e741b10002fb15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a2b7fbf4ab449a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Grad School.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "446f7b6e68b33b6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Russian Orthodox Church and Foreign Policy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "074c5c1a5a8612aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Russian Religious Mind/Russian Religuous Mind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a6be465ecf6f179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/St Jude.md",
+                "file": "Work/Intel Open FL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Russian Religious Mind/Russian Religuous Mind.md",
+                "file": "Testing Protocol.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -196,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Russian Religious Mind/Russian Religuous Mind.md",
+                "file": "Testing Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Russian Religious Mind/Russian Religuous Mind.md"
+                "file": "Testing Protocol.md"
               }
             }
           },
@@ -245,7 +184,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -258,7 +199,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -266,44 +206,50 @@
       "templates:Insert template": false,
       "markdown-importer:Open format converter": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "074c5c1a5a8612aa",
+  "active": "a40db5a7d437db4b",
   "lastOpenFiles": [
+    "Executive Summary.md",
+    "Testing Protocol.md",
+    "Work/Intel Open FL.md",
+    "Progress.md",
+    "Bash.md",
+    "Untitled",
+    "Executive Summary.pdf",
+    "Work/Coot.md",
+    "Work/NVFlare.md",
+    "Notes/St Jude.md",
+    "Work/LLM.md",
+    "Work/Environment setup.md",
+    "Work/Swarm.md",
+    "Work/project.yml.md",
+    "Russian Religious Mind/Farewell to Matyora.md",
+    "Work/St Jude.md",
+    "Climate Change/The Earth System.md",
+    "Climate Change/Systems.md",
+    "Climate Change/HW_3_Climate_Change.md",
+    "Climate Change",
+    "Excalidraw/Climate Change/The Earth System.md",
+    "Excalidraw/Climate Change/Systems.md",
+    "Excalidraw/Climate Change/HW_3_Climate_Change.md",
+    "Excalidraw/Climate Change",
+    "Work",
+    "Protestant Reformation.md",
+    "Russian Religious Mind/Russian Religuous Mind.md",
     "Russian Religious Mind/Russian Orthodox.md",
     "Russian Religious Mind/Popular Orthodoxy.md",
-    "Autoencoder.md",
+    "Machine Learning/Autoencoder.md",
     "Images/Pasted image 20231206014120.png",
     "Images/Pasted image 20231206013914.png",
     "Images/Pasted image 20231206013729.png",
     "Russian Orthodox Church and Foreign Policy.md",
-    "Notes/Grad School.md",
-    "Russian Religious Mind/Russian Religuous Mind.md",
-    "Russian Religious Mind/The heart of a dog.md",
-    "Russian Religious Mind/All Unity.md",
-    "Russian Religious Mind/Farewell to Matyora.md",
-    "Russian Religious Mind/Everyday Saints.md",
-    "Russian Religious Mind/St. Silouan.md",
-    "Notes/St Jude.md",
-    "Software Engineering/Databases.md",
-    "Software Engineering/Software Engineering.md",
-    "Software Engineering/Testing.md",
-    "Machine Learning/Ultrasound.md",
-    "Machine Learning/LLM.md",
-    "Untitled 1.md",
-    "Protestant Reformation.md",
-    "Parallel Systems/Review.md",
-    "Software Engineering/Git.md",
     "Images/Pasted image 20231115104755.png",
-    "Russian Religious Mind/Laurus.md",
-    "Software Engineering/System Architecture and Design.md",
-    "Software Engineering/User Stories.md",
-    "Software Engineering/Review.md",
     "Software Engineering",
     "Software Architecture",
     "Images/Pasted image 20231010145559.png",
-    "Untitled",
     "Images/Pasted image 20231009164854.png",
     "Images/Pasted image 20231009164826.png",
     "Images/Pasted image 20231009164506.png",
@@ -312,8 +258,6 @@
     "Notes",
     "Phys",
     "Russian Religious Mind",
-    "Parallel Systems/Memory",
-    "Parallel Systems/Cache",
     "Untitled.canvas"
   ]
 }

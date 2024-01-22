@@ -90,7 +90,7 @@ For starting the FL system with 8 clients in the secure workspace, run
 To run FL experiments in POC mode, create your local FL workspace the below command. 
 In the following experiments, we will be using 8 clients. Press y and enter when prompted. 
 ```
-nvflare poc prepare -n 8
+nvflare poc --prepare -n 8
 ```
 By default, POC will create startup kits at `/tmp/nvflare/poc`.
 
@@ -164,7 +164,7 @@ In order to visualize the training performance in a central place, `AnalyticsSen
 `ConvertToFedEvent` on the client, and `TBAnalyticsReceiver` on the server can be used. 
 For an example using FedAvg and metric streaming during training, run:
 ```
-./submit_job.sh cifar10_fedavg_stream_tb 1.0
+	./submit_job.sh cifar10_fedavg_stream_tb 1.0
 ```
 Using this configuration, a `tb_events` folder will be created under the `[JOB_ID]` folder of the server that includes 
 all the TensorBoard event values of the different clients.
