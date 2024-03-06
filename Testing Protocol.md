@@ -15,7 +15,7 @@ persistent workspaces
 
 ### Example Protocol
 ---
-##### MLOPS Test Protocol: Persistent Workspace
+## MLOPS Test Protocol: Persistent Workspace
 	assumptions:  native setup MLOPs flavor, can be run out of a registry, 
 	test:         persistent global file spaces, active environment, sessions, terminal stdout, kernel attatch
 
@@ -51,7 +51,7 @@ persistent workspaces
 	5. check for variable declarations
 
 
-##### MLOPs Test: Batch submissions
+## MLOPs Test: Batch submissions
 *cnvrg experiments*
 
 1. Basic test
@@ -71,11 +71,11 @@ persistent workspaces
 		1. run the wrapper bash file
 		2. use docker image tensorflow:23.01-tf2-py3 
 
-##### MLOPs Test: Email
+## MLOPs Test: Email
 1. Run Basic Batch Job
 	1. `env > text.txt`
 2. Receive email
-##### MLOPs Test: Track Experiment
+## MLOPs Test: Track Experiment
 
 1. Training Test
 	1. create a workspace (volume if needed)
@@ -123,7 +123,7 @@ echo '#!/bin/bash\
 pip install tensorflow tensorflow_datasets\
 python3 tensorflow/main.py' > run.sh
 ```
-##### MLOPs Test: Registry Viewer
+## MLOPs Test: Registry Viewer
 
 1. Containers > Add Registry
 2. Containers > Add Image
@@ -132,7 +132,7 @@ python3 tensorflow/main.py' > run.sh
 	2. Images (check if image is available)
 
 
-##### MLOPs Test: Dataset
+## MLOPs Test: Dataset
 Prerequisites: MLOPs Testing: CLI
 
 *cnvrg seems to not have a direct way to load from cdn to dataset
@@ -166,7 +166,7 @@ cnvrgv2 dataset put -n mednist -f train-images-idx3-ubyte,train-labels-idx1-ubyt
 "
 ```
 
-##### MLOPs Test: Pipeline/ Workflow 
+## MLOPs Test: Pipeline/ Workflow 
 Prerequisites: 
 MLOPs Test: Tracking
 MLOPs Test: Dataset
@@ -234,3 +234,67 @@ model.fit(
 )
 
 ```
+
+
+## MLOPs Testing: Version Control
+
+Version control test
+
+1. Create a workspace
+	1. compute: CPU small
+	2. image: tensorflow:23.01-tf2-py3
+2. echo hello world > test.txt
+3. sync workspace
+	1. commit message - testing versioning
+4. stop workspace
+5. start workspace
+6. pwd >> test.txt
+7. sync workspace
+8. stop workspace
+9. revert to previous commit
+	1. Output artifacts
+	2. first commit
+	3. revert version
+10. read test.txt
+	1. should contain only "hello world"
+
+## MLOPs Testing: Project File space
+
+Test project workspace file space consistency
+1. Create new workspace
+2. echo hello world > test.txt
+3. sync workspace
+4. stop workspace
+5. Create new workspace
+6. read test.txt
+	1. ensure that it contains the written text
+
+
+## MLOPs Testing: Compute Templates
+
+
+1. create new workspace
+	1. compute: CPU small
+
+Add custom compute template
+1. Compute > Add compute template
+	1. name: MLOPs Test compute template
+2. Create workspace
+	1. compute: select MLOPs Test compute template
+
+
+## MLOPs Testing: Project Access/ Sync
+
+1. create new project
+2. add collaborators
+3. open workspace
+4. create and save new jupyter file
+5. define variable
+
+As collaborator 
+1. load jupyter file
+2. print defined variable without running definition cell (assuming other collaborator has run it)
+
+
+
+# was there something to do with cnvrg
