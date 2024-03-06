@@ -317,3 +317,18 @@ Beverage hb = new HouseBlend()
 Beverage hbsugarfree = new Sugarfree(hb)
 
 ```
+
+
+``` mermaid
+sequenceDiagram
+    actor user
+	user->>controller: HTTP POST keywords.html/keywords/id
+	controller->>model: getKeywords(query.data.text)
+	activate view
+	model->>+data: model.eval(data.text)
+	data-->>-model: keyWordList
+	model-->>controller: response.json = keyWordList
+	controller->>+view: boldKeywords(keyWordList, paragraph)
+	view-->>-controller: paragraph
+	controller->>user: paragraph
+```

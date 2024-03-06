@@ -1,4 +1,4 @@
-
+	
 Creation of the Cyrillic alphabet, translation of scriptures from Hebrew
 Christianity imposed from top down 
 Amalgam of pop and Christian belief and become part of Russian orthodox believers, 
@@ -215,7 +215,6 @@ the true God-man
 one unity
 	complete solidarity, the life of all for one another in the wone, no one asserts their exclsiveness, but each is aware if it's particularity in the whole
 	art cannot surpass nature
-
 	final goal the world is moving towards - transfiguration of matter renewal of body, overcoming of death, existing in eternity, instead of itim, corruption of matter/death, existtence humanity's deather =
 	immorality 
 

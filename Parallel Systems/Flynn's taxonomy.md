@@ -1,7 +1,6 @@
 _way to classify computers_
 
 Single Multiple Instruction Data
-
 ## SISD
 VonNeumann form, one instruction works on one unit of data
 
