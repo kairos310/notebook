@@ -1,4 +1,4 @@
-mages
+Images
 
 ```
 singularity oci run docker://svlprhpcreg01.stjude.org/hpcf/chipseq-analysis:latest
